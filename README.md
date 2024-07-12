@@ -60,6 +60,10 @@ BFGS: Future values f(x) = 0.0035
 ...
 ```
 
+![image](https://github.com/user-attachments/assets/4b3555a9-491f-4dca-bb24-b3ee6a313d01)
+![image](https://github.com/user-attachments/assets/d6dd7139-8865-47da-96ae-06c62eb83091)
+
+
 ### Execution Instructions
 
 * To run the code, execute the main.py file without any additional arguments.
