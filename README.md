@@ -5,7 +5,7 @@ The provided file, Government Securities Yield GR.txt, contains the yields (%) o
 
 The precision of the polynomial model’s approximation directly depends on the choice of its parameters. To achieve an optimal fit, it is essential to carefully optimize these parameters based on the historical yield data. Polynomial models are particularly advantageous for optimization tasks, especially when using derivative-based methods, as they produce continuously differentiable objective functions. This quality allows for the application of sophisticated optimization algorithms, such as BFGS with Wolfe conditions and Dogleg BFGS, to enhance model performance and accuracy.
 
-This project implements optimization algorithms to fit a polynomial model to government securities yield data. The main objective is to minimize the error between predicted and actual yield values using two methods: BFGS and Dogleg BFGS.
+This project implements optimization algorithms to fit a polynomial model to government securities yield data. The main objective is to minimize the error between predicted and actual yield values using two methods: <b> BFGS with Wolfe Conditions for Line Search </b> and <b> Dogleg BFGS </b>.
 
 As this is my first optimization project, I recognize that there may be mistakes or areas for improvement in my approach. There is always room to refine the optimization techniques and explore alternative methods to achieve better results. Future iterations could focus on addressing these potential shortcomings to enhance the overall robustness and effectiveness of the model.
 
